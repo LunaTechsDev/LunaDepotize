@@ -1,0 +1,11 @@
+-lib hxnodejs
+# Depot Compilation File
+-cp src
+
+-D analyzer-optimize 
+-dce full
+
+-main Main
+
+--no-output
+-js dist/dummy.js

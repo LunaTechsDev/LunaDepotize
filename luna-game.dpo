@@ -1,0 +1,87 @@
+{
+    "sheets": [
+        {
+            "name": "Game Dialogue",
+            "description": "In game dialogue sequences",
+            "displayColumn": "id",
+            "guid": "28912923-df8b-4878-b335-6efd001799b4",
+            "columns": [
+                {
+                    "typeStr": "list",
+                    "guid": "a23b282c-efb2-4b59-b3bf-04929df418c6",
+                    "name": "Dialogue Text",
+                    "description": "Text in the dialogue tree",
+                    "sheet": "36f305fc-1b9f-47e3-bb61-9d3739a50902",
+                    "defaultValue": [],
+                    "iconName": "newList",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text"
+                    }
+                }
+            ],
+            "lines": [
+                {
+                    "guid": "8954acf2-2590-4097-a9c5-be7cf4ffd0ff",
+                    "id": "introduction",
+                    "Dialogue Text": [
+                        {
+                            "guid": "49ace83f-7b07-4357-8caf-06fc8c860c67",
+                            "id": "0",
+                            "text": "So, is this the first house you've bought yourself?"
+                        },
+                        {
+                            "guid": "3f3e2113-eaea-4308-91e0-ec63b221d1d6",
+                            "id": "1",
+                            "text": "Yes, it's quite a big purchase for me."
+                        },
+                        {
+                            "guid": "f4ce33c1-4e10-4f29-92ca-e9e6e9d3aa33",
+                            "id": "2",
+                            "text": "Congratulations! I'm glad you decided to make the purchase!"
+                        }
+                    ]
+                }
+            ],
+            "hidden": false,
+            "configurable": {
+                "name": "text",
+                "description": "text",
+                "displayColumn": "columnSelect@name",
+                "columnSelect@name@displayColumn": {
+                    "allowedTypes": [
+                        "int",
+                        "float",
+                        "text",
+                        "longtext"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Dialogue Text",
+            "description": "list@28912923-df8b-4878-b335-6efd001799b4",
+            "displayColumn": "id",
+            "guid": "36f305fc-1b9f-47e3-bb61-9d3739a50902",
+            "columns": [
+                {
+                    "typeStr": "longtext",
+                    "guid": "650f127d-ed9e-4d8d-bd02-8bb867bd85a1",
+                    "name": "text",
+                    "description": "Text that will be displayed in the game's dialogue window.",
+                    "defaultValue": "Hello Sir",
+                    "iconName": "newLongText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "longtext"
+                    }
+                }
+            ],
+            "lines": [],
+            "hidden": true,
+            "parentSheetGUID": "28912923-df8b-4878-b335-6efd001799b4",
+            "columnGUID": "a23b282c-efb2-4b59-b3bf-04929df418c6"
+        }
+    ]
+}
