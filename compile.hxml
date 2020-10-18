@@ -7,5 +7,5 @@
 
 -main Main
 
---no-output
+# --no-output
 -js dist/dummy.js
